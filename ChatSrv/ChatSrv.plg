@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ChatSrv - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ChatSrv.res" /d "_DEBUG" /d "_AFXDLL" "D:\C++\Chat\ChatSrv\ChatSrv.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP35.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ChatSrv.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\C++\Chat\ChatSrv\ChatSrv.cpp"
+"D:\C++\Chat\ChatSrv\ChatSrvDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP35.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP36.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ChatSrv.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\C++\Chat\ChatSrv\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP36.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ChatSrv.pdb" /debug /machine:I386 /out:"Debug/ChatSrv.exe" /pdbtype:sept  ".\Debug\ChatSrv.obj" ".\Debug\ChatSrvDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\ChatSrv.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChatSrv.cpp
+ChatSrvDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ChatSrv.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
